@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+
+html,
+body,
+.App,
+.App > .container {
+  height: 100%;
+  background-color: #c5e7f0;
+  font-family: Lato; 
+  font-weight: 200;
+  color: #002246;
+}
+
+h1 {
+  padding-top: 1em;
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.example {
+  box-shadow: 7px 7px 32px -30px rgba(0, 0, 0, 0.75);
+  transition: 0.3s;
+  &:hover {
+    box-shadow: 7px 7px 32px -20px rgba(0, 0, 0, 0.75);
+    transition: 0.7s;
+  }
+  .card-header {
+    font-family: Lato;
+    font-weight: 400;
+  }
+
+}
+
+#good {
+  color: green;
+}
+  
+#bad{ 
+  color: red;
+}
+    
